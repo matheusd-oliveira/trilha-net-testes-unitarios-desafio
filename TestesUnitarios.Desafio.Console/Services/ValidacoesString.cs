@@ -19,5 +19,11 @@ namespace TestesUnitarios.Desafio.Console.Services
             var termina = texto.EndsWith(textoProcurado);
             return termina;
         }
+
+        public string RetornarTudoEmMaisculo(string texto)
+        {
+            var maiusculo = texto.ToUpper();
+            return maiusculo;
+        }
     }
 }
